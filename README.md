@@ -14,7 +14,7 @@ Maintenance mode, cache clearing and Manager actions are applied asynchronously,
 
 ## API keys
 
-Create a key in Modular DS under Settings > API > Create key. A read-only key opens every view; creating, editing and Manager actions need a read and write key. Those actions change real data in your account, so there is no sandbox.
+Create a key in Modular DS under My profile > API > Create key. A read-only key opens every view; creating, editing and Manager actions need a read and write key. Those actions change real data in your account, so there is no sandbox.
 
 The key is verified, then stored encrypted in an HttpOnly session cookie for seven days. The server uses it to call the API and never sends it back to the browser.
 

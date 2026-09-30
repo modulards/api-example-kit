@@ -28,7 +28,7 @@ function onSaved(): void {
         <UCard :ui="{ body: 'p-5 sm:p-6', root: 'shadow-lg ring-default' }">
           <div class="mb-6 space-y-3 text-sm leading-6 text-muted">
             <p>
-              Sign in to Modular DS, open Settings, choose API, then select <span class="font-medium text-default">Create key</span>.
+              Sign in to Modular DS, open My profile, choose API, then select <span class="font-medium text-default">Create key</span>.
               A read-only key lets you explore the read views. Choose <span class="font-medium text-default">Read and write</span> to try write actions.
             </p>
             <p>
